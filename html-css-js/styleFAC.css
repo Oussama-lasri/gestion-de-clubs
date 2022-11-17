@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Open+Sans:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Days One";
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0057ff;
+}
+.wrapper {
+  /* position: relative; */
+  max-width: 60rem;
+  width: 100%;
+  height: fit-content;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  padding: 4rem;
+  border-radius: 3rem;
+}
+.wrapper h2 {
+  /* position: relative; */
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+}
+.wrapper form {
+  padding-top: 4rem;
+}
+.wrapper form .input-box {
+  height: 4rem;
+  margin: 1rem 0;
+}
+
+.wrapper form input ,.wrapper form textarea{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 1.5rem;
+  border: 0.1rem solid #c7bebe;
+  border-bottom-width: 0.3rem;
+  border-radius: 6px;
+}
+.wrapper form  textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 120px;
+  max-height: 200px;
+  /* padding: 15PX 20PX 0  48PX; */
+}
+#logo{
+    padding: 0;
+    border: 0.1rem solid #c7bebe;
+}
+
+
+
+
+input[type="file"]::-webkit-file-upload-button{
+   
+    background-color: #8c8686;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    font-family: "Days One";
+    /* text-align: center; */
+    /* margin-bottom: 30px; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    
+}
