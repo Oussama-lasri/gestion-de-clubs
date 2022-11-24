@@ -56,3 +56,6 @@ body {
   max-height: 200px;
   /* padding: 15PX 20PX 0  48PX; */
 }
+.error{
+  color: red;
+}

@@ -94,6 +94,15 @@ input{
     height: 20px;
     
 }
+select{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 2px;
+    border: none;
+    height: 20px;
+}
 
 .ajouter h2{
     color: aliceblue;

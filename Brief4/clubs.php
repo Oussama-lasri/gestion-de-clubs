@@ -1,20 +1,24 @@
-
-
+<?php
+session_start();
+if(!isset($_SESSION['id'])){
+  header('location: formLogin.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style-ajouter.css">
+    <link rel="stylesheet" href="Css/style.css" />
+    <link rel="stylesheet" href="Css/style-ajouter.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
-      <div class="logo"><img src="logo.png" alt="" /></div>
+      <div class="logo"><img src="images/logo.png" alt="" /></div>
       <ul>
-        <li><a href="dashboardClubs.html">gestion de clubs</a></li>
+        <li><a href="dashboardClubs.php">gestion de clubs</a></li>
         <li><a href="#">gestion des apprenanats</a></li>
       </ul>
     </header>
@@ -22,7 +26,7 @@
   <div class="membre">
     <h2>List of member</h2>
     <button class="button">
-        <a class="btn btn-primary" href="./ajouter.html" role="button" >+ Ajouter un membre</a>
+        <a class="btn btn-primary" href="./ajouter.php" role="button" >+ Ajouter un membre</a>
     </button>
     <table class="tableau-style">
             <thead>
@@ -33,7 +37,7 @@
                     <th>Email</th>
                     <th>Phone</th>
                     <th>Address</th>
-                    <th>Created at</th>
+                    <th>Club</th>
                 </tr>
             </thead>
             <tbody>

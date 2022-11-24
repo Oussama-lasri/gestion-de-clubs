@@ -60,9 +60,10 @@ button{
     text-align: center;
     cursor: pointer;
     font-size: 2rem;
-
-
-    
+}
+.a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .container{
@@ -183,9 +184,8 @@ h2{
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.11);
     cursor: pointer;
     transition: 0.2s;
-    width: 40REM;
-    
-
+    width: 35rem; 
+    /* padding-bottom: 5rem; */
 }
 /* .card{
     display: flex;
@@ -250,9 +250,9 @@ background-color: #c2cffc;
 /* footer */
 footer{
     background-color: #0d0d0d79;
-   
+   /* position: relative; */
     height: auto;
-    width: 100Vw;
+    width: 100%;
     padding-top: 4rem;
     color:#fff ;
 }
@@ -298,7 +298,7 @@ footer{
 }
 .footer-bottom{
     /* background-color: #0d0d0d79; */
-    width: 100vw;
+    width: 100%;
     padding: 20px; 
     text-align: center;
 
